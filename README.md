@@ -1,7 +1,8 @@
 # PRISMA
 Producing Resolved and Integrated Spectra from siMulated gAlaxies
 
-This repository includes a Jupyter notebook that shows how to generate synthetic spectra using PRISMA.
+This repository includes a Jupyter notebook that shows how to generate synthetic spectra using PRISMA. The methodology behind PRISMA is described in detail in the paper: **Mocking IFU observations and metallicity diagnostics from cosmological simulations** 
+(Cornejo-Cárdenas et al. 2025, https://arxiv.org/abs/2506.00460).
 
 **To run this tutorial, follow these steps:**
 
@@ -19,12 +20,16 @@ This repository includes a Jupyter notebook that shows how to generate synthetic
 
 
 3- **Install CIGALE** by following the step-by-step installation 
-   guide available at: https://cigale.lam.fr/documentation/
+   guide available at: https://cigale.lam.fr/documentation/. For 
+   this tutorial, we used the version 2025.0
 
 4- **Install additional dependencies with pip:**
 
 	pip install jupyter pandas pytest-shutil shapely 
 
    
-5- **Navigate to the PRISMA directory and run the notebook** PRISMA.ipynb 
-    using the data provided in the Data_sims/ folder.
+5- **Time to try PRISMA!**
+	Navigate to the PRISMA directory (cd path/to/PRISMA) and run the notebook PRISMA.ipynb 
+ 	using the data provided in the Data_sims/ folder. Additionally, the notebook 
+  	PRISMA_Results_Visualization.ipynb in the Utils/ directory shows how to display 
+   	PRISMA results.
